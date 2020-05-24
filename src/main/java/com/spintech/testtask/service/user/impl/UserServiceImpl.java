@@ -1,8 +1,8 @@
-package com.spintech.testtask.service.impl;
+package com.spintech.testtask.service.user.impl;
 
-import com.spintech.testtask.entity.User;
-import com.spintech.testtask.repository.UserRepository;
-import com.spintech.testtask.service.UserService;
+import com.spintech.testtask.repository.user.entity.User;
+import com.spintech.testtask.repository.user.UserRepository;
+import com.spintech.testtask.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

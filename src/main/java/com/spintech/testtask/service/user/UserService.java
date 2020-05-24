@@ -1,6 +1,6 @@
-package com.spintech.testtask.service;
+package com.spintech.testtask.service.user;
 
-import com.spintech.testtask.entity.User;
+import com.spintech.testtask.repository.user.entity.User;
 
 public interface UserService {
     User registerUser(String email, String password);
